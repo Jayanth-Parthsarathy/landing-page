@@ -1,0 +1,10 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+}
+.Links{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    padding: 22px;
+}
