@@ -35,6 +35,9 @@ a {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 35px;
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
 }
 .hero {
     background-color: #1F2937;
@@ -150,4 +153,12 @@ a {
 
 .item img {
     margin-bottom: 20px;
+    height: 250px;
+    width: auto;
+}
+.socials {
+    height: 35px;
+    width: auto;
+    border-radius: 50%;
+    background-color: black;
 }
