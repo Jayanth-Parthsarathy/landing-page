@@ -1,10 +1,32 @@
-.Header {
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
     display: flex;
+    gap: 16px;
+    align-items: center;
+    background-color: #1F2937;
     justify-content: space-around;
 }
-.Links{
+
+.links {
     display: flex;
-    margin-left: auto;
-    justify-content: center;
-    padding: 22px;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header--logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
